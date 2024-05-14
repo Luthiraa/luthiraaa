@@ -1,0 +1,56 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+    h2{
+        color: #C69749;
+        font-size: 20px;
+    }
+
+}
+.top-skills .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    color: #aaa;
+    font-family: monospace;
+    font-size: 15px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+.about-details{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #b6cdd4;
+}
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-img {
+    flex: 1;
+    padding: 20px;
+
+    
+}
+
+.about-img img {
+    position: relative;
+    width: 100%;
+
+}
+.about-title {
+    text-align: center;
+    color: #C69749;
+    font-family: monospace;
+}

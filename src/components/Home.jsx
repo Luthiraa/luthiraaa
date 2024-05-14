@@ -2,8 +2,13 @@ import React, { useEffect } from 'react';
 import './Home.css';
 import $ from 'jquery';
 import Typewriter from 'typewriter-effect';
+import { motion } from 'framer-motion';
+import { BrowserRouter as Router, Route, Link ,Routes} from "react-router-dom";
+import ProjectPage from './ProjectPage';
+
 
 const Home = () => {
+  
   useEffect(() => {
     const canvas = document.getElementById('container');
     const clone = document.getElementById('blurCanvasBottom');
@@ -118,34 +123,31 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <Router>
+      
       <canvas className="container" id="container" role="main"></canvas>
       <div className="content">
-      <p className='high'>Hi, my name is</p>
+        <p className='high'>Hi, my name is</p>
         <h1 className="title">Luthira Abeykoon</h1>
         <div className='break'></div>
         <div className="subtitle-line">
-      
-  <p className="subtitle">I'm a </p>
-
-  <Typewriter
-    options={{
-      strings: ['student @ UofT','Electrical Engineer (hopefully) soon ', 'programmer','photographer','videographer'],
-      autoStart: true,
-      loop: true,
-    }}
-  />
-</div>
-        
-       
-        
+          <p className="subtitle">I'm a </p>
+          <Typewriter
+            options={{
+              strings: ['student @ UofT','Electrical Engineer (hopefully) soon ', 'programmer','photographer','designer'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </div>
       </div>
       <div className='content-rs'>
-        <p></p>
+        <div className='links'>
+        </div>
       </div>
       <div className="blur blurTop"><canvas className="canvas" id="blurCanvasTop"></canvas></div>
       <div className="blur blurBottom"><canvas width="1000px" height="1000px" className="canvas" id="blurCanvasBottom"></canvas></div>
-    </>
+    </Router>
   );
 };
 

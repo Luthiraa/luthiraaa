@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    outline: 0;
+    box-sizing: inherit;
+    font: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font: 400 16px/1.5 Arial, sans-serif;
+    background: #111;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu__link {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    line-height: 1;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    position: relative;
+    margin: 16px;
+    transition: color 0.2s;
+  }
+  
+  .menu__link:hover {
+    color: #fcc419;
+  }
+  

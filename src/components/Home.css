@@ -16,6 +16,8 @@ html,body {
   height:100%;
   position:absolute;
 }
+
+
 #blurCanvasTop{
   left:0%;
   top:0%;
@@ -28,6 +30,7 @@ html,body {
 }
 .high{
   color:#C69749;
+  margin-bottom: 0;
 }
 .break {
   height: 40px; /* Adjust this value to increase/decrease the space */
@@ -76,4 +79,17 @@ p.desc{
   top:100%;
   transform:rotate(20deg);
   transform-origin: 100% 0%;
+}
+.content-rs {
+  position: absolute;
+  right: 0; 
+  padding-right: 8rem;
+}
+
+.content-rs .links {
+  color:#b6cdd4;
+  display: flex; 
+  flex-direction: row; 
+  gap: 1rem; 
+  align-items: flex-end; 
 }
