@@ -3,16 +3,16 @@
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    bottom: 5%; /* Adjust this value to move the icons up */
+    bottom: 5%; 
     left: 1%;
 }
 
 .icon {
     font-size: 1em;
     margin-bottom: 1em;
-    z-index: 2; /* Add this line */
-    position: relative; /* Add this line */
-    color: #b6cdd4; /* Add this line */
+    z-index: 2; 
+    position: relative; 
+    color: #b6cdd4; 
 }
 
 .line-guide::before {
