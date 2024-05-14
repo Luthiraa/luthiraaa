@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
-import Icons from './components/Icons'; // Import the Icons component
-import Project from './components/Project'; // Import the Project component
+import Icons from './components/Icons'; 
+import Project from './components/Project';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Icons /> {/* Use the Icons component */}
+        <Icons /> {
         <Home />
-        {/* <Project />  */}
       </header>
     </div>
   );
