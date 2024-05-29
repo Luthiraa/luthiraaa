@@ -4,8 +4,8 @@
     --moz-column-count: 4;
     gap: 1rem;
     padding: 4rem;
-    max-width: 1500px; /* Add this line */
-    margin: 0 auto; /* Add this line to center the gallery */
+    max-width: 1500px;
+    margin: 0 auto; 
 }
   
   .image {
