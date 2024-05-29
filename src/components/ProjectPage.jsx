@@ -4,6 +4,7 @@ import Nebula from "../assets/Nebula.png";
 import dev from "../assets/dev.png";
 import IWB from "../assets/IWB.png";
 import Mosaic from "../assets/Mosiac.png";
+import TwistedPixx from "../assets/TwistedPixx.png";
 import V1 from "../assets/V1.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
@@ -72,6 +73,13 @@ const ProjectPage = () => {
         details="All-in-one health application, created purely with React Native. This project gave me the chance to learn about the utilization of built-in smartphone sensors, and optimizing performance through the manipulation of rendering methods.  Features of this app include heart rate tracking, blood pressure monitoring, and screen time tracker. The graphical user interface is still under development."
         listItems={["React Native", "HTML", "CSS", "SQL","Python"]}
         imgSrc={Nebula}
+      />
+            <Project
+        label="Youtube"
+        title="Twisted Pix - Travel & Photography"
+        details={`Twisted Pix is a travel and photography YouTube channel that I started in 2020. I have always had a passion for photography and videography, and this channel has allowed me to share my experiences with the world. I have been able to travel to many different countries/provinces and capture some amazing footage. This allowed me to learn about video editing, and the importance of storytelling.`}
+        listItems={["Premier Pro", "Motion Graphic", "Photography"]}
+        imgSrc={TwistedPixx}
       />
     </motion.div>
     </div>

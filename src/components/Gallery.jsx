@@ -16,7 +16,10 @@ import IMG13 from '../assets/gallery/IMG (13).jpg';
 import IMG14 from '../assets/gallery/IMG (14).jpg';
 import IMG15 from '../assets/gallery/IMG (15).jpg';
 import IMG16 from '../assets/gallery/IMG (16).jpg';
-
+import IMG17 from '../assets/gallery/IMG (17).jpg';
+import IMG18 from '../assets/gallery/IMG (18).jpg';
+import IMG19 from '../assets/gallery/IMG (19).jpg';
+import IMG20 from '../assets/gallery/IMG (20).jpg';
 const Gallery = () => {
   return (
     <div>

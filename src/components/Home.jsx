@@ -2,9 +2,8 @@ import React, { useEffect } from 'react';
 import './Home.css';
 import $ from 'jquery';
 import Typewriter from 'typewriter-effect';
-import { motion } from 'framer-motion';
 import { BrowserRouter as Router, Route, Link ,Routes} from "react-router-dom";
-import ProjectPage from './ProjectPage';
+
 
 
 const Home = () => {
