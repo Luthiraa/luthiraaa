@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/pfp-fake.jpg'; // Replace this with the actual path to your image
+import image from '../assets/pfp-fake.jpg';
 import './About.css';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
