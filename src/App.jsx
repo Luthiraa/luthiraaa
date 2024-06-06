@@ -18,7 +18,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
-    <Suspense fallback={<img src={Preloader} alt="Loading..." />}> {/* Use img tag for preloader */}
+    <Suspense fallback={<img src={Preloader} alt="Loading..." />}>
       <div className="App">
         <header className="App-header">
             <Parallax pages={10} style={{ top: "0", left: "0" }}>
