@@ -10,6 +10,11 @@ import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Preloader from "./logo.svg";
 import Footer from "./components/Footer";
+import ReactGA from 'react-ga';
+
+const trackingId = "G-FEEF56KLBW"; 
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
