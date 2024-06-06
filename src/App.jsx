@@ -14,7 +14,14 @@ import ReactGA from 'react-ga';
 
 const trackingId = "G-FEEF56KLBW"; 
 ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
+
+ReactGA.send({
+  hitType: 'pageview',
+  eventCategory: 'User',
+  eventAction: 'Visit',
+  eventLabel: 'Homepage',
+  page: window.location.pathname,
+});
 
 function App() {
   return (
