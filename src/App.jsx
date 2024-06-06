@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import "./App.css";
 import Home from "./components/Home";
 import Icons from "./components/Icons"; 
@@ -15,15 +15,11 @@ import ReactGA from 'react-ga';
 const trackingId = "G-FEEF56KLBW"; 
 ReactGA.initialize(trackingId);
 
-ReactGA.send({
-  hitType: 'pageview',
-  eventCategory: 'User',
-  eventAction: 'Visit',
-  eventLabel: 'Homepage',
-  page: window.location.pathname,
-});
-
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <Suspense fallback={<img src={Preloader} alt="Loading..." />}>
       <div className="App">
