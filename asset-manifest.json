@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luthiraaa/static/css/main.7185210f.css",
-    "main.js": "/luthiraaa/static/js/main.07293154.js",
+    "main.js": "/luthiraaa/static/js/main.d1216b2b.js",
     "static/js/453.44f674cb.chunk.js": "/luthiraaa/static/js/453.44f674cb.chunk.js",
     "static/media/IMG (18).jpg": "/luthiraaa/static/media/IMG (18).6ad7fbdde1b5ec72edef.jpg",
     "static/media/IMG (16).jpg": "/luthiraaa/static/media/IMG (16).45a3fe9063f6ff3fabb9.jpg",
@@ -34,15 +34,16 @@
     "static/media/Research.png": "/luthiraaa/static/media/Research.4f5d5f56ce29a84ff608.png",
     "static/media/AR.png": "/luthiraaa/static/media/AR.11cdc40cb003e7ee1dcf.png",
     "static/media/JunkShark.png": "/luthiraaa/static/media/JunkShark.302f9ca58d2e9b96b295.png",
+    "static/media/FraudSentry1.png": "/luthiraaa/static/media/FraudSentry1.5e5ea340db78aa9fa142.png",
     "static/media/OPS2.png": "/luthiraaa/static/media/OPS2.81110a44d4922400bdd0.png",
     "static/media/logo.svg": "/luthiraaa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/luthiraaa/index.html",
     "main.7185210f.css.map": "/luthiraaa/static/css/main.7185210f.css.map",
-    "main.07293154.js.map": "/luthiraaa/static/js/main.07293154.js.map",
+    "main.d1216b2b.js.map": "/luthiraaa/static/js/main.d1216b2b.js.map",
     "453.44f674cb.chunk.js.map": "/luthiraaa/static/js/453.44f674cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7185210f.css",
-    "static/js/main.07293154.js"
+    "static/js/main.d1216b2b.js"
   ]
 }
