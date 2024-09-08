@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luthiraaa/static/css/main.b0a8a2e2.css",
-    "main.js": "/luthiraaa/static/js/main.ee162c1d.js",
+    "main.js": "/luthiraaa/static/js/main.c5837986.js",
     "static/js/453.982cdf79.chunk.js": "/luthiraaa/static/js/453.982cdf79.chunk.js",
     "static/media/2.jpg": "/luthiraaa/static/media/2.b24b033c192affa44111.jpg",
     "static/media/8.jpg": "/luthiraaa/static/media/8.9dc887c2e36ace3c59e8.jpg",
@@ -39,18 +39,18 @@
     "static/media/Nebula.png": "/luthiraaa/static/media/Nebula.221f4969ca83a654a4d3.png",
     "static/media/Research.png": "/luthiraaa/static/media/Research.4f5d5f56ce29a84ff608.png",
     "static/media/AR.png": "/luthiraaa/static/media/AR.11cdc40cb003e7ee1dcf.png",
-    "static/media/JunkShark.png": "/luthiraaa/static/media/JunkShark.302f9ca58d2e9b96b295.png",
     "static/media/FraudSentry1.png": "/luthiraaa/static/media/FraudSentry1.5e5ea340db78aa9fa142.png",
+    "static/media/AC.png": "/luthiraaa/static/media/AC.18336c14b5d2568d5041.png",
     "static/media/OPS2.png": "/luthiraaa/static/media/OPS2.81110a44d4922400bdd0.png",
     "static/media/Visualizer.png": "/luthiraaa/static/media/Visualizer.987b89feea8be74e5cf8.png",
     "static/media/logo.svg": "/luthiraaa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/luthiraaa/index.html",
     "main.b0a8a2e2.css.map": "/luthiraaa/static/css/main.b0a8a2e2.css.map",
-    "main.ee162c1d.js.map": "/luthiraaa/static/js/main.ee162c1d.js.map",
+    "main.c5837986.js.map": "/luthiraaa/static/js/main.c5837986.js.map",
     "453.982cdf79.chunk.js.map": "/luthiraaa/static/js/453.982cdf79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0a8a2e2.css",
-    "static/js/main.ee162c1d.js"
+    "static/js/main.c5837986.js"
   ]
 }
