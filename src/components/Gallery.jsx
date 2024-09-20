@@ -16,10 +16,14 @@ import IMG13 from '../assets/gallery/IMG (13).jpg';
 import IMG14 from '../assets/gallery/IMG (14).jpg';
 import IMG15 from '../assets/gallery/IMG (15).jpg';
 import IMG16 from '../assets/gallery/IMG (16).jpg';
-import IMG17 from '../assets/gallery/IMG (17).jpg';
-import IMG18 from '../assets/gallery/IMG (18).jpg';
-import IMG19 from '../assets/gallery/IMG (19).jpg';
-import IMG20 from '../assets/gallery/IMG (20).jpg';
+import i1 from '../assets/gallery/1.jpg';
+import i2 from '../assets/gallery/2.jpg';
+import i3 from '../assets/gallery/3.jpg';
+import i4 from '../assets/gallery/4.jpg';
+import i5 from '../assets/gallery/5.jpg';
+import i6 from '../assets/gallery/6.jpg';
+import i7 from '../assets/gallery/7.jpg';
+import i8 from '../assets/gallery/8.jpg';
 const Gallery = () => {
   return (
     <div>
@@ -27,8 +31,72 @@ const Gallery = () => {
         <h1>Gallery</h1>
         </div>
  <section className="gallery">
+ <div className="image">
+  <img
+    src={i1}
+    alt="image"
+    className="image-hover"
+  />
+</div>
 
-  
+<div className="image">
+  <img
+    src={i2}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+<div className="image">
+  <img
+    src={i3}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+<div className="image">
+  <img
+    src={i4}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+<div className="image">
+  <img
+    src={i5}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+
+<div className="image">
+  <img
+    src={i6}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+<div className="image">
+  <img
+    src={i7}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+<div className="image">
+  <img
+    src={i8}
+    alt="image"
+    className="image-hover"
+  />
+</div>
+
+
+
 <div className="image">
   <img
   src={IMG1}

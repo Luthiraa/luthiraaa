@@ -40,13 +40,15 @@
 .about-img {
     flex: 1;
     padding: 20px;
-
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1);
     
 }
 
 .about-img img {
     position: relative;
     width: 100%;
+
 
 }
 .about-title {

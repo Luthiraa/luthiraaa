@@ -1,0 +1,24 @@
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 25%; 
+    right: -2%;
+    transform: rotate(90deg);
+    font-family: monospace;
+    font-size: 0.65em;
+    color: #b6cdd4;
+}
+.line::before {
+    content: '';
+
+    width: 1px; 
+    transform: rotate(90deg);
+    height: 200px; 
+    position: absolute;
+    top: -85px;
+    right: -45%;
+    border-left: 1px solid #b6cdd4;
+}

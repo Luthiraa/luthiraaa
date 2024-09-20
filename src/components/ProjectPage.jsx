@@ -5,11 +5,13 @@ import dev from "../assets/dev.png";
 import IWB from "../assets/IWB.png";
 import Mosaic from "../assets/Mosiac.png";
 import TwistedPixx from "../assets/TwistedPixx.png";
+import FraudSentry from "../assets/FraudSentry1.png"
 import V1 from "../assets/V1.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
-
-
+import minigesture from "../assets/minigesture.png";
+import NinjaBrain from "../assets/NinjaBrain.png";
+import Visualizer from "../assets/Visualizer.png";
 const ProjectPage = () => {
   const [state, setState] = useState(null); 
   const controls = useAnimation();
@@ -31,6 +33,34 @@ const ProjectPage = () => {
     className="card"
 >              
        <h1 className="centered-title">Projects</h1>
+       <Project
+        label="Study Companion"
+        title="NinjaBrain"
+        details = {"NinjaBrain is a study companion app developed in the 36-hour IgnitionHacks, Hackathon. Users simply take a picture of their nots and the app will intelligently ocnvert it into questions in the form of multiple choice, short asnwer or long ans wer questions. This is built with a React frontend and a Python backend with the help of the Google Cloud Vision API for OCR and fine-tuned LLM via Vertex AI for question generation. It also features a SQL database for user authentication and storage of user sessions/questions."}
+        listItems={["Flask","Vertex AI","Google Cloud Vision","SQL"]}
+        imgSrc={NinjaBrain}
+        />
+       <Project
+        label="DSA"
+        title="Algorithm Visualizer"
+        details={"This project was created to help visualize sorting algorithms. The front end was created using React and the back end was created using Python. The back end features sorting algorithms such as bubble sort, quick sort, and merge sort. The front end features a simple UI to select the sorting algorithm and the speed of the visualization. Future implementations will invlude more if not all algorithms and possibly search algorithms :)"}
+        listItems={["Python","Flask","React","Uvicorn","DSA"]}
+        imgSrc={Visualizer}
+      />
+       <Project
+        label="LR - Fraud Detection" 
+        title="FraudSentry"
+        details={"This project was a part of a collabrotive project which aimed to detect past fraudulent transactions. The backend features a simple logistic regression model with a single hidden layer neural network using raw numpy, pandas, and tensorflow. We achived a 98.345% accuracy for its binary catigorical output. A simple front end was created using React and Flask to connect the backend. Next steps for this project is to implement a real-time detection system."}
+        listItems={["Python","Flask","TensorFlow","React","Uvicorn"]}
+        imgSrc={FraudSentry}
+      />
+       <Project
+        label="LSTM - Gesture Recognition"
+        title="MiniGestures"
+        details="MiniGestures is a gesture recognition system for android to automate and accelerate daily tasks. I chose an LSTM model for its 3 gate control flow which was ideal for processing sequential data. This also reduced the training time/data required by 75%. The gesture data is represented as temporal sequences where each frame corresponds to a certain time point. Due to hardware limitations, it was only able to achive an accuracy of 68.7% and 0.5 loss."
+        listItems={["Python", "OpenCV", "TensorFlow","Keras","ReactNative"]}
+        imgSrc={minigesture}
+      />
                     <Project
         label="Website"
         title="Luthira - V2"

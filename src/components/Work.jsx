@@ -3,10 +3,10 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 import WorkElement from './WorkElement';
 import Research from '../assets/Research.png';
-import JunkShark from '../assets/JunkShark.png';
+import AC from '../assets/AC.png';
 import OPS2 from '../assets/OPS2.png';
+import AR from '../assets/AR.png';
 import './Work.css';
-import Particles from './Particles';
 import $ from 'jquery';
 const Work = () => {
     
@@ -145,20 +145,26 @@ const Work = () => {
             >
                 <h1 className="centered-title">Experience</h1>
                 <WorkElement
-                    label="May 2024 - Present"
-                    title="Computational Modeling & Machine Learning Student Researcher"
+                  label="September 2024 - Present"
+                  title="Developer @ Acceleration Consortium"
+                  details="Self Driving Labs... More to come soon!"
+                  imgSrc={AC}
+                />
+                <WorkElement
+                    label="May 2024 - September 2024"
+                    title="Computational Modeling & Machine Learning Researcher"
                     details="Under the guidance of Dr. Paul Yoo, I am currently developing a computational simulation of non-invasive peripheral nerve recording where a finite element model of the human lower leg will be used to simulate electrical recordings of single fiber action potentials propagating along the saphenous nerve. This will then be used in a CNN machine leanring model inorder to predict outcomes with more complex models/simulations."
                     imgSrc={Research}
                 />
                 <WorkElement
-                    label="January 2024 - May 2024"
-                    title="Front-End Developer @ JunkShark"
-                    details="Using React, I was able to develop a website for JunkShark, a local startup that specializes in junk removal. I was able to create a visually appealing website that was both user-friendly and responsive. I also integrated a booking system that allowed users to book appointments directly from the website."
-                    imgSrc={JunkShark}
+                    label="June 2024 - July 2024"
+                    title="Full-stack Developer @ AR Construction"
+                    details="I am a full-stack developer at AR Construction, specializing in commercial development. My responsibilities include developing and maintaining the company's React.js-based website for optimal user experience. I also created a custom CRM system using Python,Flask and REST APIs to streamline client data management. Key technologies I work with include PostgreSQL on AWS RDS for scalable data storage and Docker for efficient deployment"
+                    imgSrc={AR}
                 />
                 <WorkElement
                     label="June 2024 - August 2024"
-                    title="IT & Office Assistant Intern @ Ontario Public Services"
+                    title="IT & Office Automation Assistant @ Ontario Public Services"
                     details="During my summer internship at the Toronto Land Registry Office (LRO#66), I developed a Java application using Google's Cloud Vision API. This app was designed for camera-based scanning of large land registry pin datasets. One of my key contributions was the innovative sorting, formatting, and compiling of data into Excel, which significantly streamlined the data entry process. Additionally, I worked closely with the project team to gather and analyze data. Leveraging MS Excel, I created visualizations and charts that facilitated informed decision-making in the land registry process."
                     imgSrc={OPS2}
                 />

@@ -1,5 +1,6 @@
 import React from 'react';
 import image from '../assets/pfp-fake.jpg';
+import PFP from '../assets/PFP.jpg';
 import './About.css';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
@@ -32,13 +33,13 @@ const About = () => {
                     <div className="about-content">
                         <div className="about-details">
                             <p>Hi, my name is Luthira, a 2nd year Electrical Engineering student at the University Of Toronto. Prior to UofT I was a student at Dr. Norman Bethune CI, a school located in North Scarborough.</p>
-                            <p>Currently, I am interested in the IoT space and systems integration, exploring how different devices and technologies can work together seamlessly to improve efficiency and enhance user experiences, hence leading me to pursue an EE degree. </p>
+                            <p>Currently, I am interested in the IoT space, systems integration and medtech, exploring how different devices and technologies can work together seamlessly to improve efficiency and enhance user experiences, hence leading me to pursue an EE degree. </p>
                             <p>Outside of the classroom, you can find me camping, on long bike rides, or in the gym. I also love taking photos, editing and designing things.</p>
                         </div>
                         <div className="top-skills">
                             <h2>Top Skills</h2>
                             <div className="skills-container">
-                                <div>Java | C | Go (language)| Python | HTML | CSS | JavaScript (React)</div>
+                                <div>Python | C | C++ | JavaScript(React) MatLab | Java | Go</div>
 
                             </div>
                         </div>

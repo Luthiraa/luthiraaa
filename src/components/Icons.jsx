@@ -25,9 +25,6 @@ const Icons = () => {
             <motion.div className="icon" variants={iconVariants} whileHover="hover" initial="rest">
                 <IoLogoGithub onClick={() => navigateTo('https://github.com/Luthiraa')} />
             </motion.div>
-            <motion.div className="icon" variants={iconVariants} whileHover="hover" initial="rest">
-                <IoLogoGoogle onClick={() => navigateTo('mailto:luthira.abeykoon@gmail.com')} />
-            </motion.div>
         </div>
     );
 };

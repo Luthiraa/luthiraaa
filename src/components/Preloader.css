@@ -1,0 +1,17 @@
+body,html{
+	height: 100%;
+	width: 100%;
+  }
+  body{
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #141717;
+  }
+  svg{
+	height: 80vh;
+	width: 80vh;
+	max-height: 480px;
+	min-width: 480px;
+  }
